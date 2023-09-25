@@ -1,5 +1,5 @@
 .header {
-    padding: 20px;
+    padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     display: flex;
@@ -10,27 +10,49 @@
 }
 .flexbox-container{
     display: flex;
-    justify-content: flex-start;
-    direction: ro;
+    flex-direction: row;
+    flex-wrap: wrap;
 
    
    
+}
+.flexbox-container2{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display:flex
+    
+    
 }
 .flexbox-card{
-
+ border: 3px black;
+ width: 300px;
+ height: 400px;
 }
 .flexbox{
+    justify-content: flex-end;
     border: solid 3px;
    
   
 
 }
+.flexbox2{
+    border: 3px black solid;
+    width: 500px;
+    height: 300px
+    
+   
+    
+}
+
 .font{
     font-size: 50px;
 }
 .nav {
     float: right;
 }
-
+.aboutme {
+    display: inline;
+    float: inline-start;
+}
 
     
