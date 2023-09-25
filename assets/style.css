@@ -1,0 +1,36 @@
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    overflow: hidden;
+    color: aliceblue;
+}
+.flexbox-container{
+    display: flex;
+    justify-content: flex-start;
+    direction: ro;
+
+   
+   
+}
+.flexbox-card{
+
+}
+.flexbox{
+    border: solid 3px;
+   
+  
+
+}
+.font{
+    font-size: 50px;
+}
+.nav {
+    float: right;
+}
+
+
+    
